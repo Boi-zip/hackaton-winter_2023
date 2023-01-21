@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div id="result" style="margin-top: 70px; margin-bottom: 70px;">
+      <p>this is the result!</p>
+      <h3>this is a test!</h3>
+      <h5>just text</h5>
+    </div>
+    <button id="download-button">Download</button>
+    <button id="delelem" onclick="lookelem()">delete an element</button>
+    <button id="sortelem" onclick="sortelems()">change items order!</button>
+    <p>double click to delete!</p>
+    <script src="javascripts/Sortable-1.15.0/Sortable.js"></script>
+    <script src="javascripts/script.js"></script>
+  </body>
+</html>
